@@ -1,5 +1,5 @@
 {
-  "originHash" : "7c986bceb4bff6a441499ee9ff00dc2f102f4245a543833ba0862cfc6f310677",
+  "originHash" : "dd0e624a317d182183e30dc3bf41bcd1c79db9d7499b67896b397cb14a82dd88",
   "pins" : [
     {
       "identity" : "cricheroes-anymindadsdks",
@@ -8,6 +8,24 @@
       "state" : {
         "revision" : "6932d5e79736f8562eb89b5caf52b6238dbda153",
         "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "googlemobileadsmediationinmobi",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AnyMindG/GoogleMobileAdsMediationInMobi.git",
+      "state" : {
+        "revision" : "487a1885c0a3034769a3d7737f170c8ec9dc00d9",
+        "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "inmobiadsdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AnyMindG/InMobiAdSDK.git",
+      "state" : {
+        "revision" : "46276486eb4285a57cf397297a95eed55af4fc0d",
+        "version" : "1.1.0"
       }
     },
     {
