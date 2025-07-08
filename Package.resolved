@@ -1,13 +1,13 @@
 {
-  "originHash" : "8df1637e244f72c798731f7a7b716e447823f653d2fea22734da9383438de1fe",
+  "originHash" : "8d6bc90f8bd57ec9fe31e28c9d20c820c928b22c48fd9b626ea3695b19a77fde",
   "pins" : [
     {
       "identity" : "cricheroes-anymindadsdks",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/AnyMindG/CricHeroes-AnyMindAdSDKs.git",
       "state" : {
-        "revision" : "94c5a71d9f73778ff23ac9ed65dd842432d58673",
-        "version" : "1.0.0"
+        "revision" : "0134c00d1a12757da79051bbc3915ee19412a125",
+        "version" : "1.1.0"
       }
     },
     {
