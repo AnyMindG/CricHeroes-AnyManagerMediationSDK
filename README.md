@@ -1,0 +1,2 @@
+# CricHeroes-AnyManagerMediationSDK
+AnyManagerMediationSDK
