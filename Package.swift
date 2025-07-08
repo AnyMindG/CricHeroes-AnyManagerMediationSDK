@@ -3,11 +3,10 @@
 
 import PackageDescription
 
-// version 1.1.0
+// version 1.2.0
 let package = Package(
     name: "CricHeroes-AnyManagerMediationSDK",
-    defaultLocalization: "en",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v12)],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
@@ -15,7 +14,7 @@ let package = Package(
             targets: ["CricHeroes-AnyManagerMediationSDK"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/AnyMindG/CricHeroes-AnyMindAdSDKs.git", from: "1.1.0"),
+        .package(url: "https://github.com/AnyMindG/CricHeroes-AnyMindAdSDKs.git", from: "1.2.0"),
         .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", from: "11.13.0"),
         
     ],
@@ -31,7 +30,7 @@ let package = Package(
                 .product(name: "IASDKCore", package: "CricHeroes-AnyMindAdSDKs"),
                 .product(name: "GoogleMobileAdsMediationFyber", package: "CricHeroes-AnyMindAdSDKs"),
                 .product(name: "UnityAds", package: "CricHeroes-AnyMindAdSDKs"),
-                .product(name: "UnityAdapter", package: "CricHeroes-AnyMindAdSDKs"),
+                .product(name: "GADMediationAdapterUnity", package: "CricHeroes-AnyMindAdSDKs"),
                 .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
                 ],
             linkerSettings: [
