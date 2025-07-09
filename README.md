@@ -13,6 +13,6 @@ Integration
 
 Just add it via Swift Package Manager using the Git URL.
 
-Project settings
+** Project settings **
 
-Add -ObjC flag to the Other Linker Flags under Application Target > Build Settings.
+** Add -ObjC flag to the Other Linker Flags under Application Target > Build Settings. **
